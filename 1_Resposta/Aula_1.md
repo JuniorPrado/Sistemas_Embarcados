@@ -1,5 +1,5 @@
 
-*1- O que são sistemas embarcados? *
+_1- O que são sistemas embarcados?_
    
    
    São sistemas computacionais responsáveis por realizar uma função específica 
