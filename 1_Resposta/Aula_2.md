@@ -1,16 +1,49 @@
 
+1. Por que o Linux recebeu esse nome?
 
-    Por que o Linux recebeu esse nome?
+O nome Linux surgiu da mistura de Linus + Unix. Linus é o nome do criador do Linux, Linus Torvalds.
 
-    O que são daemons?
+2. O que são daemons?
 
-    O que é o shell?
+Um daemon é um programa de computador que executa como um processo em plano de fundo, em vez de estar 
+sob o controle direto de um usuário interativo.
 
-    Por que é importante evitar executar o terminal como super-usuário?
+3. O que é o shell?
 
-    Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?
+O shell é a ligação entre o usuário e o sistema. É ele quem interpreta os comandos entrados para outros aplicativos ou diretamente em chamadas de sistema. Além disso, os recursos do shell são indispensáveis para lidar com muitos arquivos ao mesmo tempo, para realizar uma tarefa repetidamente ou para programar uma ação para determinada ocasião, entre outros recursos
 
-    Quais botões do teclado apresentam instruções escritas anteriormente?
+4. Por que é importante evitar executar o terminal como super-usuário?
 
-    Apresente os respectivos comandos no terminal para: (a) Obter mais informações sobre um comando. (b) Apresentar uma lista com os arquivos dentro de uma pasta. (c) Apresentar o caminho completo da pasta. (d) Trocar de pasta. (e) Criar uma pasta. (f) Apagar arquivos definitivamente. (g) Apagar pastas definitivamente. (h) Copiar arquivos. (i) Copiar pastas. (j) Mover arquivos. (k) Mover pastas. (l) Renomear pastas. (m) Apresentar o conteúdo de um arquivo. (n) Apresentar o tipo de um arquivo. (o) Limpar a tela do terminal. (p) Encontrar ocorrências de palavras-chave em um arquivo-texto. (q) Ordenar informações em um arquivo-texto. (r) Substituir ocorrências de palavras-chave em um arquivo-texto. (s) Conferir se dois arquivos são iguais. (t) Escrever algo na tela.
+Por ter controle total do sistema o usuário pode acabar fazendo alguma alteração que acabe danificando o sistema ou
+sem querer apagando algum diretório importante.
 
+5. Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?
+
+A tecla TAB.
+
+6. Quais botões do teclado apresentam instruções escritas anteriormente?
+
+As setas para cima e baixo
+
+7. Apresente os respectivos comandos no terminal para:
+
+  (a) man
+  (b) ls
+  (c) pwd
+  (d) cd
+  (e) mkdir
+  (f) rm
+  (g) rm -r
+  (h) cp
+  (i) cp -r
+  (j) mv
+  (k) mv -r
+  (l) mv
+  (m) cat
+  (n) File.
+  (o) clear
+  (p) grep.
+  (q) sort
+  (r) sed
+  (s) cmp
+  (t) echo
