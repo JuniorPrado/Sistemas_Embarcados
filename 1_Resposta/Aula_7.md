@@ -61,7 +61,8 @@ criados neste código? De onde vem a imprecisão? Este é um método confiável 
 
 
 
-
+R = O atraso vem do tempo que leva a função ser chamada pelo sinal. Não é um metodo confiavel pois não roda em tempo real, 
+tem o atraso 
 
 
 
