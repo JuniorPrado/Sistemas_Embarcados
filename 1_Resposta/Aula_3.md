@@ -41,7 +41,7 @@ Olá Antonio.
 
 4 - 
 
-``C
+```C
 
 Qual é o seu nome? "Antonio Prado"
 Olá "Antonio. 
@@ -49,7 +49,7 @@ Olá "Antonio.
 
 ```
 5 - 
-``C
+```C
 
 Qual é o seu nome? "Antonio Prado"
 Olá "Antonio. 
