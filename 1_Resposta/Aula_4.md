@@ -82,3 +82,56 @@ Idade: 26
 
 ```
 
+4. Crie uma função que retorna o tamanho de um arquivo, usando o seguinte protótipo: `int tam_arq_texto(char *nome_arquivo);` Salve esta função em um arquivo separado chamado 'bib_arqs.c'. Salve o protótipo em um arquivo chamado 'bib_arqs.h'. Compile 'bib_arqs.c' para gerar o objeto 'bib_arqs.o'.
+
+
+```C
+
+//bib_arqs.c
+#include "bib_arqs.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int tam_arq_texto(char *nome_arquivo) {
+  FILE *fp;
+  
+  int i=0; //usado para contagem no while
+  char c;
+  fp = fopen(nome_arquivo,"r"); //cria arquivo para leitura
+  c = getc(fp); //pega o primeiro caracter do arquivo
+  while (!feof(fp))  //enquanto não achar o final do arquivo encrementa e procura o próximo caracter      
+    {
+    	i++;
+      	c = getc(fp);   
+    }
+    printf(i);
+	fclose(fp);
+  return 0;
+}
+
+```
+
+
+
+
+
+
+5. Crie uma função que lê o conteúdo de um arquivo-texto e o guarda em uma string, usando o seguinte protótipo: `void le_arq_texto(char *nome_arquivo, char *conteudo);` Repare que o conteúdo do arquivo é armazenado no vetor `conteudo[]`. Ou seja, ele é passado por referência. Salve esta função no mesmo arquivo da questão 4, chamado 'bib_arqs.c'. Salve o protótipo no arquivo 'bib_arqs.h'. Compile 'bib_arqs.c' novamente para gerar o objeto 'bib_arqs.o'.
+
+6. Crie um código em C que copia a funcionalidade básica do comando `cat`: escrever o conteúdo de um arquivo-texto no terminal. Reaproveite as funções já criadas nas questões anteriores. Por exemplo, considerando que o código criado recebeu o nome de 'cat_falsificado':
+
+```bash
+$ echo Ola mundo cruel! Ola universo ingrato! > ola.txt
+$ ./cat_falsificado ola.txt
+$ Ola mundo cruel! Ola universo ingrato!
+```
+
+7. Crie um código em C que conta a ocorrência de uma palavra-chave em um arquivo-texto, e escreve o resultado no terminal. Reaproveite as funções já criadas nas questões anteriores. Por exemplo, considerando que o código criado recebeu o nome de 'busca_e_conta':
+
+```bash
+$ echo Ola mundo cruel! Ola universo ingrato! > ola.txt
+$ ./busca_e_conta Ola ola.txt
+$ 'Ola' ocorre 2 vezes no arquivo 'ola.txt'.
+```
+
